@@ -1,20 +1,20 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.name=name;
-		this.age=age;
+		this._name=name;
+		this._age=age;
 	}
-	getName(){
-		return this.name;
+	get name(){
+		return this._name;
 	}
 	setName(name){
 		this.name=name;
 	}
-	getAge(){
-		return this.age;
+	get age(){
+		return this._age;
 	}
-	setAge(age){
-		this.age=age;
+	set age(age){
+		this._age=age;
 	}
 }
 
